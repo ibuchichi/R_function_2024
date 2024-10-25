@@ -1,4 +1,5 @@
-This repository is for R original functions introduced in Atsushi Kimura's presentation at uRos2024 Greece.
+# R_function_2024
 
-There are two functions in this repository, hclust_LIV() and Jaccard_identification().
+- This repository is for R original functions introduced in Atsushi Kimura's presentation at uRos2024 Greece.
+- There are two functions in this repository, hclust_LIV() and Jaccard_identification().
 
