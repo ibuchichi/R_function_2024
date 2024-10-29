@@ -228,7 +228,8 @@ library(dplyr)
 ###########################################################################################################
 # Loading FIES-from2017to2019.csv for Reference Data
 #
-ssdse_c_Ref <- read.csv("FIES-from2017to2019.csv", fileEncoding="Shift-JIS")
+#ssdse_c_Ref <- read.csv("FIES-from2017to2019.csv", fileEncoding="Shift-JIS")
+ssdse_c_Ref <- read.csv("FIES-from2017to2019.csv")
 rownames(ssdse_c_Ref) <- ssdse_c_Ref$Prefecture
 ssdse_small_Ref <- ssdse_c_Ref |> select(-Prefecture) 
 
@@ -260,7 +261,8 @@ ssdse_c_year <- "FIES-from2020to2022"
 #ssdse_c_year <- "FIES-from2021to2023"
 
 ssdse_data_path <- paste(ssdse_c_year, ".csv", sep="")
-ssdse_c <- read.csv(ssdse_data_path, fileEncoding="Shift-JIS")
+#ssdse_c <- read.csv(ssdse_data_path, fileEncoding="Shift-JIS")
+ssdse_c <- read.csv(ssdse_data_path)
 
 rownames(ssdse_c) <- ssdse_c$Prefecture
 ssdse_small <- ssdse_c |> select(-Prefecture) 
