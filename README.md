@@ -8,4 +8,4 @@
 
 # Notation about Data Sets
 * FIES-20XXto20YY.csv Data Sets  was created by editing ["the Family Income and Expenditure Survey"](https://www.stat.go.jp/english/data/kakei/index.html) (Statistics Bureau, Ministry of Internal Affairs and Communications)
-* Japan_H26_05.xxx shape files  was created by processing ["National Land Numerical Information (Administrative District Data Data)"](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html) (Ministry of Land, Infrastructure, Transport and Tourism)  (Japanese Webste)
+* Japan_H26_05.xxx shape files  was created by processing ["National Land Numerical Information (Administrative District Data Data)"](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html) (Ministry of Land, Infrastructure, Transport and Tourism)  (Japanese Website)
